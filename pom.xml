@@ -21,7 +21,7 @@
 
     <groupId>io.sgr</groupId>
     <artifactId>io.sgr</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>io.sgr</name>
@@ -38,7 +38,7 @@
         <connection>scm:git:git@github.com:sgr-io/io.sgr-maven-parent.git</connection>
         <developerConnection>scm:git:git@github.com:sgr-io/io.sgr-maven-parent.git</developerConnection>
         <url>https://github.com/sgr-io/io.sgr-maven-parent</url>
-      <tag>v1.0.2</tag>
+      <tag>HEAD</tag>
   </scm>
     <developers>
         <developer>
