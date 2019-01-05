@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  ~ Copyright 2017-2018 SgrAlpha
+  ~ Copyright 2017-2019 SgrAlpha
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -34,8 +34,8 @@
         </license>
     </licenses>
     <scm>
-        <connection>scm:git:git@github.com:sgr-io/io.sgr-maven-parent.git</connection>
-        <developerConnection>scm:git:git@github.com:sgr-io/io.sgr-maven-parent.git</developerConnection>
+        <connection>scm:git:git@github.com:io-sgr/io.sgr-maven-parent.git</connection>
+        <developerConnection>scm:git:git@github.com:io-sgr/io.sgr-maven-parent.git</developerConnection>
         <url>https://github.com/sgr-io/io.sgr-maven-parent</url>
         <tag>HEAD</tag>
     </scm>
