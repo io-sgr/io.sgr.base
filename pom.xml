@@ -27,7 +27,7 @@
 
     <groupId>io.sgr</groupId>
     <artifactId>io.sgr.base</artifactId>
-    <version>1.0.7</version>
+    <version>1.0.8-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>io.sgr.base</name>
@@ -44,7 +44,7 @@
         <connection>scm:git:git@github.com:io-sgr/io.sgr.base.git</connection>
         <developerConnection>scm:git:git@github.com:io-sgr/io.sgr.base.git</developerConnection>
         <url>https://github.com/io-sgr/io.sgr.base</url>
-        <tag>v1.0.7</tag>
+        <tag>HEAD</tag>
     </scm>
     <developers>
         <developer>
