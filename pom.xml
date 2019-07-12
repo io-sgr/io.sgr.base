@@ -59,4 +59,27 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.basepom.maven</groupId>
+                    <artifactId>duplicate-finder-maven-plugin</artifactId>
+                    <configuration>
+                        <ignoredDependencies>
+                            <dependency>
+                                <groupId>net.bytebuddy</groupId>
+                                <artifactId>byte-buddy</artifactId>
+                            </dependency>
+                            <dependency>
+                                <groupId>net.bytebuddy</groupId>
+                                <artifactId>byte-buddy-agent</artifactId>
+                            </dependency>
+                        </ignoredDependencies>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+
 </project>
