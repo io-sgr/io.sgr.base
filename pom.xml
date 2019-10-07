@@ -59,40 +59,12 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <build>
-        <pluginManagement>
-            <plugins>
-                <plugin>
-                    <groupId>org.jacoco</groupId>
-                    <artifactId>jacoco-maven-plugin</artifactId>
-                    <executions>
-                        <execution>
-                            <id>report</id>
-                            <phase>test</phase>
-                            <goals>
-                                <goal>report</goal>
-                            </goals>
-                        </execution>
-                    </executions>
-                </plugin>
-                <plugin>
-                    <groupId>org.basepom.maven</groupId>
-                    <artifactId>duplicate-finder-maven-plugin</artifactId>
-                    <configuration>
-                        <ignoredDependencies>
-                            <dependency>
-                                <groupId>net.bytebuddy</groupId>
-                                <artifactId>byte-buddy</artifactId>
-                            </dependency>
-                            <dependency>
-                                <groupId>net.bytebuddy</groupId>
-                                <artifactId>byte-buddy-agent</artifactId>
-                            </dependency>
-                        </ignoredDependencies>
-                    </configuration>
-                </plugin>
-            </plugins>
-        </pluginManagement>
-    </build>
+    <distributionManagement>
+        <relocation>
+            <groupId>io.sgr.maven</groupId>
+            <artifactId>maven-base</artifactId>
+            <version>1.1.1</version>
+        </relocation>
+    </distributionManagement>
 
 </project>
