@@ -1,3 +1,3 @@
-# About this repository
+# Archived
 
-This is the parent Maven project for all io.sgr projects.
+Moved to [io-sgr/maven-policy/maven-base](https://github.com/io-sgr/maven-policy/tree/master/maven-base)
